@@ -24,7 +24,6 @@ func optionsgui();create the GUI of options
    $mousebox = GUICtrlCreateCheckbox("Mouse buttons", 120, 296, 97, 17)
    if $usemouse = 1 Then
 	  GUICtrlSetState(-1, $GUI_CHECKED)
-	  guictrlsetstate($key1in,$GUI_DISABLE)
 	  guictrlsetstate($key2in,$GUI_DISABLE)
    EndIf
    $Label20 = GUICtrlCreateLabel("All values in Miliseconds - (0 or negative in max value is not recommended but some fast songs may require lower values)", 152, 59, 571, 17)
